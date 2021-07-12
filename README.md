@@ -21,6 +21,8 @@ The original method is described in rather generic terms where an intent space w
 
 Based on the explanations in the paper, I assumed there exist several different RNN modules for each intent class available during training since the base matrix for a given intent needs to be specific to that intent. The paper also states there exit different initial hidden vectors for each intent class, therefore, I assumed every RNN module uses a different initial hidden state vector (randomly initialized).
 
+I assumed that the output of each RNN module is a single value which multiplies
+
 # 3. Experiments and results
 
 ## 3.1. Experimental setup
